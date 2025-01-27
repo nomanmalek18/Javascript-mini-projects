@@ -1,11 +1,13 @@
+// selete all propertys
 const qrinput = document.getElementById('qr-input');
-
 const qrimg = document.getElementById('qr-img');
-
 const qrbutton = document.getElementById('qr-button');
+// check 
 console.log(qrinput,qrimg ,qrbutton)
-qrbutton.addEventListener('click', () =>{
 
+// addEventListener on button
+qrbutton.addEventListener('click', () =>{
+    // check input value seleted propertys
     const inputValue = qrinput.value;
     console.log(inputValue);
 
